@@ -143,7 +143,6 @@ contract EmployeeManagement {
 
         // Calculate the currentTime
         uint256 currentTime = block.timestamp;
-        require(msg.sender == companyOwner, "Only Owner can pay the employees");
 
         require(
             currentEmployee.employeeAddress != companyOwner,

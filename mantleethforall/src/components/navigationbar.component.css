@@ -3,11 +3,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #e2e2e2;
+    border-bottom: 1px solid #1a1a1a;
     position: sticky;
     top: 0;
     z-index: 100;
-    background: #fff;
+    background: #000;
 }
 
 .searchForm img{
@@ -23,14 +23,14 @@
     border-radius: 7px;
     width: 15vw;
     border: none;
-    background: #f2f2f2;
+    background: #1a1a1a;
     outline: none;
 }
 
 
 .btn-connect{
     padding: 12px 20px;
-    background: #000000;
+    background: #1a1a1a;
     border-radius: 7px;
     border: none;
     outline: none;
@@ -49,13 +49,13 @@
 
 .profile-section{
     /* width: 100px; */
-    border: 1px solid #f2f2f2;
+    border: 1px solid #1a1a1a;
     padding: 6px 10px;
     border-radius: 7px;
     display: flex;
     gap:10px;
     color: #ffffff;
-    background: #000000;
+    background: #1a1a1a;
 }
 
 .profile-section img{

@@ -10,6 +10,7 @@ table{
 .tHead{
     position: sticky;
     top: 0;
+    background: red;
 }
 
 thead tr th{
@@ -18,7 +19,7 @@ thead tr th{
     padding: 1em 10px;
     cursor: pointer;
     text-align: left;
-    background: #111;
+    background: #1a1a1a;
 }
 
 
@@ -31,17 +32,17 @@ td{
     padding: 10px 10px;
     min-width: 1em;
     overflow: auto;
-    color: #000000;
+    color: #fff;
 }
 tbody tr:nth-of-type(even){
-    background: #f2f2f2;
+    background: #111;
 }
 tbody tr{
     border-bottom: .05em dashed rgba(0, 0, 0, 0.1);
 }
 
 tbody tr:hover{
-    background: #d1d1d1;
+    background: #1a1a1a;
     border-radius: 1em;
     cursor: pointer;
     transition: all .3s ease-in-out;

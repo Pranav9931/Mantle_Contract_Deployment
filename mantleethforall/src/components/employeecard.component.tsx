@@ -71,7 +71,7 @@ const EmployeeCard = ({ obj }: any) => {
 
             </div>
             <div className='btn-abs'>
-                <button className="btn-connect" disabled={!isVested} onClick={() => handleClick(obj.pid, obj.salary)}>Pay Now</button>
+                <button className="pay-btn" disabled={!isVested} onClick={() => handleClick(obj.pid, obj.salary)}>Pay Now</button>
             </div>
 
         </div>

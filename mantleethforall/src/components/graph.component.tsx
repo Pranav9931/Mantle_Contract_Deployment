@@ -92,6 +92,7 @@ export function TransactionGraph() {
             x: {
                 grid: {
                     display: boolean, // disable x grid
+                    color: string
                 },
                 ticks: {
                     display: boolean, // disable x labels
@@ -147,7 +148,8 @@ export function TransactionGraph() {
         scales: {
             x: {
                 grid: {
-                    display: false, // disable x grid
+                    display: true, // disable x grid
+                    color: "#1a1a1a"
                 },
                 ticks: {
                     display: true, // disable x labels
@@ -158,7 +160,7 @@ export function TransactionGraph() {
                 max: Math.max(...values) + 0.5, // set custom maximum value
                 grid: {
                     display: true, // disable y grid
-                    color: "#f2f2f2"
+                    color: "#1a1a1a"
                 },
                 ticks: {
                     display: false, // disable y labels

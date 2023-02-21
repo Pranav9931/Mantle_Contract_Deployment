@@ -5,7 +5,7 @@
     align-items: center;
     flex-direction: column;
     padding: 30px 0;
-    border-right: 1px solid #e2e2e2;
+    border-right: 1px solid #1a1a1a;
     height: calc(100vh - 60px);
     position: sticky;
     top:0;
@@ -43,7 +43,7 @@
     cursor: pointer;
 }
 .list-items-container li:hover{
-    background: #eee;
+    background: #1a1a1a;
 }
 
 .list-items-container img{

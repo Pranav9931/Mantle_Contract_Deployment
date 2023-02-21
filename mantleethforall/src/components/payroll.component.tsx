@@ -72,7 +72,7 @@ const Payroll = () => {
                     <span className="payroll-title">{totalOutstandingAmount.toString().slice(0, 4)} MATIC</span>
                 }
                 <br />
-                <button className="btn-connect" style={{ width: '100%', height: '50px' }} onClick={() => handleClick(`${totalOutstandingAmount}`)} disabled={isLoading}>Pay Employees</button>
+                <button className="pay-btn" style={{ width: '100%', height: '50px' }} onClick={() => handleClick(`${totalOutstandingAmount}`)} disabled={isLoading}>Pay Employees</button>
             </div>
         </div>
     )
