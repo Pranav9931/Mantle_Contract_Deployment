@@ -4,7 +4,7 @@ A salary disbursement project on Web3 that handles payment to the employee and t
 ## Contract Deployment
 The contract for the same is deployed at Mantle Testnet.
 - Deployment Address: 0xE10488fcd9994E1002f38Ffb1E5cE1392473B77c
-- PolygonScan URL: https://explorer.testnet.mantle.xyz/address/0xE10488fcd9994E1002f38Ffb1E5cE1392473B77c
+- MantleScan URL: https://explorer.testnet.mantle.xyz/address/0xE10488fcd9994E1002f38Ffb1E5cE1392473B77c
 - The contract consists of following nonepayable as well as payable functions:
   - addEmployee: NONEPAYABLE
   - getAllEmployees: NONEPAYABLE
