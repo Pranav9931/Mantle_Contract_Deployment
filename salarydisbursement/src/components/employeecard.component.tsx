@@ -49,7 +49,7 @@ const EmployeeCard = ({ obj }: any) => {
                     <div>
                         <span className="page-title">Salary</span>
                         <div className='detail-box' >
-                            {obj.salary} MATIC
+                            {obj.salary} BIT
                         </div>
                     </div>
                     <div>
